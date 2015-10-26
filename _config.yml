@@ -13,39 +13,31 @@ color:
   secondary-dark: 333
 
 # Team names, titles and social links
-people:
-- name: Kay Garland
+people1:
+- name: 沈易培
   pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  position: 用户体验设计
 
-- name: Larry Parker
+- name: 李心成
   pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  position: 软硬件集成
 
-- name: Diana Petersen
+- name: 姚丹
   pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  position: 软件开发
+
+people2:
+- name: 赵瀚森
+  pic: 4
+  position: 硬件开发
+
+- name: 曹广
+  pic: 5
+  position: 工业设计
+
+- name: 曹宇哲
+  pic: 6
+  position: 品牌推广
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
