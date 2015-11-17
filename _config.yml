@@ -1,62 +1,113 @@
-url: https://fitnut.github.io
-baseurl: 
+### GENERAL SETTINGS ###
 
 # Site settings
 title: Fitnut
-email: fitnut@163.com
 description: "Fitnut坚果健身，坚持健身，果然有效~"
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: fed136
-  secondary: fec503  
-  secondary-dark: 333
-
-# Team names, titles and social links
-people1:
-- name: 沈易培
-  pic: 1
-  position: 用户体验设计
-
-- name: 李心成
-  pic: 2
-  position: 软硬件集成
-
-- name: 姚丹
-  pic: 3
-  position: 软件开发
-
-people2:
-- name: 赵瀚森
-  pic: 4
-  position: 硬件开发
-
-- name: 曹广
-  pic: 5
-  position: 工业设计
-
-- name: 曹宇哲
-  pic: 6
-  position: 品牌推广
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 北京市海淀区
-  - line: 清华园1号
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "https://fitnut.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url:
+  - title: twitter
+    url: 
+  - title: instagram
+    url: 
+  - title: tumblr
+    url: 
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - 北京市海淀区
+    - 清华园1号
+    - 中华人民共和国
+email: fitnut@163.com
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members1:
+  - name: 沈易培
+    position: 用户体验设计
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: 01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: 李心成
+    position: 软硬件集成
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: 02.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: 姚丹
+    position: 软件开发
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: 03.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+members2:
+  - name: 赵瀚森
+    position: 硬件开发
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: 04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: 曹广
+    position: 工业设计
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: 05.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: 曹宇哲
+    position: 品牌推广
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: 06.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO
