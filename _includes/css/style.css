@@ -240,12 +240,12 @@ a:focus {
 
 #headerwrap h1 {
 	color: white;
-	margin-bottom: 5rem;
+	margin-bottom: 0rem;
 	font-size: 60px;
 }
 
 #headerwrap .container {
-	margin-top: 15rem;
+	margin-top: 3rem;
 }
 
 /* Services Wrap */
@@ -310,8 +310,6 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: {{ site.colors.primary }};
-    background-color:rgba({{ site.colors.primary_rgb }},.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -320,7 +318,7 @@ a:focus {
 }
 
 #twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
+    background: url(../img/index/1.4couchBg.png) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
